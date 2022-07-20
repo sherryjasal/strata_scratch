@@ -13,5 +13,5 @@ df = pd.merge(customers, orders, left_on = 'id', right_on = 'cust_id', how = 'le
 df1 = df.sort_values(by=['first_name','order_details'], ascending=[True,True])[['first_name','last_name', 'city', 'order_details']]
 df1
 
-Link : https://platform.stratascratch.com/coding/9891-customer-details?code_type=2
-Lessons Learnt : how to perform left join in pandas, ** left_on ** , ** right_on **
+## Link : https://platform.stratascratch.com/coding/9891-customer-details?code_type=2
+## Lessons Learnt : how to perform left join in pandas, ** left_on ** , ** right_on **
