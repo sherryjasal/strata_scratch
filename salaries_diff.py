@@ -16,6 +16,8 @@ df_diff = abs(pd.DataFrame(df_mar['mar_salary'] - df_eng['eng_salary']))
 df_diff.columns = ['salary_diff']
 df_diff
 
+## link: https://platform.stratascratch.com/coding/10308-salaries-differences?code_type=2
+
 ## lessons_learnt : 
 ## JOIN the department table with employee table to get a list of employees, salaries, and department
 ## GROUP BY max salary by department in two different data frames
