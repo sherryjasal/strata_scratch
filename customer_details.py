@@ -14,4 +14,10 @@ df1 = df.sort_values(by=['first_name','order_details'], ascending=[True,True])[[
 df1
 
 ## Link : https://platform.stratascratch.com/coding/9891-customer-details?code_type=2
+
+## Approach
+## Perform Left Join on customers and orders dataframe by using pd.merge(dataframe1, dataframe2, on = common_table_keys, how = 'left')
+## Use [ [ column_name/s] ] to return a specified column of the dataframe then sort along the specified column using sort_values()
+
+
 ## Lessons Learnt : how to perform left join in pandas, ** left_on ** , ** right_on **
